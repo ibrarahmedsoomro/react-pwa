@@ -21,7 +21,8 @@ export function initNotification () {
             messaging.getToken().then((currentToken) => {
 
                 if (currentToken) {
-                    console.log("TOken =>", currentToken);
+                    console.log("Token")
+                    console.log(currentToken);
                 
                 } else {
               
